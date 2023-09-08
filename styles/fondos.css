@@ -1,0 +1,32 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+h4{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+   
+}
+
+.Plano{
+    background-color: aquamarine;
+}
+.Gradiente{
+    background: linear-gradient(to right, red, blue);
+}
+.imagen{
+background-image: url(/assets/img/spark.jpg);
+}
